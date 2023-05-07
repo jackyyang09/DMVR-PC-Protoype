@@ -1,0 +1,54 @@
+{
+    "name": "Default",
+    "maps": [
+        {
+            "name": "Duel",
+            "id": "4641e001-06ea-4e90-be13-2a7385334137",
+            "actions": [
+                {
+                    "name": "Forward",
+                    "type": "Button",
+                    "id": "47cb327b-9c3b-461d-a3b8-5bf50e56d2a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "b14e99aa-af57-41aa-998c-d12d8d7c82e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "799c975f-22ac-4616-b5a4-5f209e9884ae",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7008c92-4f29-4b51-bc13-63cd3fb74a5b",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
